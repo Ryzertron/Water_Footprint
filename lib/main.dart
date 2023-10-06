@@ -1,4 +1,4 @@
-import 'package:byte_brawlers/screen_home.dart';
+import 'package:byte_brawlers/screen_base.dart';
 import 'package:flutter/material.dart';
 
 main() {
