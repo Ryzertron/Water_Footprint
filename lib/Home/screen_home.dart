@@ -5,8 +5,14 @@ class ScreenHome extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold();
-    //TODO: Implement Home Page here. 
-    //Any custom widgets should be written in a seperate file.
+    return const SafeArea(
+      child: Column(
+        children: [
+          TextField(
+        
+          )
+        ],
+      ),
+    );
   }
 }
