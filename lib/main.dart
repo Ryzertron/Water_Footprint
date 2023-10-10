@@ -3,7 +3,7 @@ import 'package:byte_brawlers/base_elements/screen_base.dart';
 import 'package:flutter/material.dart';
 
 main() {
-  runApp(WaterFootprint());
+  runApp(const WaterFootprint());
 }
 
 class WaterFootprint extends StatelessWidget {

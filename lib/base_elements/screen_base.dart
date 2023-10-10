@@ -18,12 +18,13 @@ class ScreenBase extends StatelessWidget {
       body: SafeArea(
           child: Stack(
         children: [
-          AnimatedWave(bounds: bounds),
           ValueListenableBuilder(
-              valueListenable: navigationindex,
-              builder: (BuildContext ctxt, int value, Widget? _) {
-                return _pages[value];
-              }),
+            valueListenable: navigationindex,
+            builder: (BuildContext ctxt, int value, Widget? _) {
+              return _pages[value];
+            },
+          ),
+          IgnorePointer(child: AnimatedWave(bounds: bounds))
         ],
       )),
     );
