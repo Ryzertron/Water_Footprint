@@ -16,8 +16,6 @@ The BlueDrop is a mobile application designed to help users calculate the water 
 ## Getting Started
 
 ### Prerequisites
-- Python 3.x
-- Pip (Python package manager)
 - Flutter
 - Dart
 
