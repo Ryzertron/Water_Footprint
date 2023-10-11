@@ -87,7 +87,7 @@ class CamPreviewScreen extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       IconButton(
-                        onPressed: () {},
+                        onPressed: () => Navigator.of(context).pop(),
                         icon: Icon(
                           Icons.arrow_back_rounded,
                           color: Colors.white,

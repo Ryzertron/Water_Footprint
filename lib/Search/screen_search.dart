@@ -1,6 +1,4 @@
-import 'package:byte_brawlers/Search/search_idle.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter/material.dart';
 
 class ScreenSearch extends StatelessWidget {
@@ -27,7 +25,7 @@ class ScreenSearch extends StatelessWidget {
                     child: IconButton(
                       hoverColor: Colors.transparent,
                       highlightColor: Colors.transparent,
-                      onPressed: () {},
+                      onPressed: () => Navigator.of(context).pushNamed('CameraScreen'),
                       icon: Icon(
                         size: bounds.height * 0.05,
                         Icons.lens_blur,
