@@ -1,5 +1,6 @@
 import 'package:byte_brawlers/Search/screen_search.dart';
 import 'package:byte_brawlers/base_elements/screen_base.dart';
+import 'package:byte_brawlers/capture%20screen/screen_camera_preview.dart';
 import 'package:flutter/material.dart';
 
 main() {
@@ -19,7 +20,8 @@ class WaterFootprint extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: ScreenBase(),
       routes: {
-        'ActiveSearch' :(context) => const ScreenSearch()
+        'ActiveSearch' :(context) => const ScreenSearch(),
+        'CameraScreen' :(context) => const CamPreviewScreen()
       },
     );
   }

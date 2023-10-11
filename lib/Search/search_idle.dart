@@ -1,6 +1,4 @@
 import 'package:animated_text_kit/animated_text_kit.dart';
-import 'package:byte_brawlers/Search/screen_search.dart';
-import 'package:byte_brawlers/base_elements/wave_animation.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -50,7 +48,7 @@ class ScreenSearchIdle extends StatelessWidget {
                   child: IconButton(
                     hoverColor: Colors.transparent,
                     highlightColor: Colors.transparent,
-                    onPressed: () {},
+                    onPressed: () => Navigator.of(context).pushNamed('CameraScreen'),
                     icon: Icon(
                       size: bounds.height * 0.05,
                       Icons.lens_blur,
